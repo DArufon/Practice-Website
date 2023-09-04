@@ -1,0 +1,91 @@
+
+body {
+  background-image: url(background/bg.jpg);
+  background-position: center top;
+  background-attachment: scroll;
+  background-size:cover;
+  background-repeat:no-repeat;
+  
+}
+
+h1 {
+  text-align: center;
+  color: white; 
+  
+}
+
+
+
+p{
+ color: white;
+  font: arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  font-style: oblique;
+}
+
+
+h3 {
+ color: white;
+  text-align: center;
+  font: arial;
+  font-weight: bold;
+}
+
+.button-container-div{
+
+  text-align: center;
+}
+
+
+button.facebook-button {
+
+ background: white;
+  margin-left: 840px;
+  margin-top: 200px;
+  border: 2px solid;
+  border-style: ridge solid;
+  border-color: cornflowerblue;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 46.3%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+
+
+button.instagram-button {
+
+  background: white;
+  border: 2px solid;
+  border-style: ridge solid;
+  border-color:crimson;
+  margin-left: 910px;
+  margin-top: 200px;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+button.github-button{
+  background: white; 
+  border: 2px solid;
+  border-style: ridge solid;
+  border-color: dimgray;
+  margin-left: 980px;
+  margin-top: 200px;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 53.7%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
